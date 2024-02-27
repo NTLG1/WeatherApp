@@ -4,10 +4,21 @@
  A weather app for Android that leverages the OpenWeatherMap API to provide users with detailed weather information. 
 
 ## 🌃 Screenshots
-<img src="https://i.imgur.com/7TStZxP.png" alt="Home Screen iOS" width="300">
-<img src="https://i.imgur.com/IXYPVqo.png" alt="Home Screen Android" width="300">
-<img src="https://i.imgur.com/4aGBFtV.png" alt="Settings Screen Android" width="300">
-<img src="https://i.imgur.com/kMkMsvr.png" alt="Guide Screen Android" width="300">
+
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="https://i.imgur.com/7TStZxP.png" alt="Home Screen iOS" style="width: 100%;">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="https://i.imgur.com/IXYPVqo.png" alt="Home Screen Android" style="width: 100%;">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="https://i.imgur.com/4aGBFtV.png" alt="Settings Screen Android" style="width: 100%;">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="https://i.imgur.com/kMkMsvr.png" alt="Guide Screen Android" style="width: 100%;">
+  </div>
+</div>
 
 ## 📚 Features
 - [x] Display the current and forecast weather conditions
