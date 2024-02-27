@@ -6,16 +6,16 @@
 ## 🌃 Screenshots
 
 <div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 50%; padding: 5px;">
+  <div style="flex: 0 0 calc(50% - 10px); padding: 5px;">
     <img src="https://i.imgur.com/7TStZxP.png" alt="Home Screen iOS" style="width: 300px;">
   </div>
-  <div style="flex: 50%; padding: 5px;">
+  <div style="flex: 0 0 calc(50% - 10px); padding: 5px;">
     <img src="https://i.imgur.com/IXYPVqo.png" alt="Home Screen Android" style="width: 300px;">
   </div>
-  <div style="flex: 50%; padding: 5px;">
+  <div style="flex: 0 0 calc(50% - 10px); padding: 5px;">
     <img src="https://i.imgur.com/4aGBFtV.png" alt="Settings Screen Android" style="width: 300px;">
   </div>
-  <div style="flex: 50%; padding: 5px;">
+  <div style="flex: 0 0 calc(50% - 10px); padding: 5px;">
     <img src="https://i.imgur.com/kMkMsvr.png" alt="Guide Screen Android" style="width: 300px;">
   </div>
 </div>
