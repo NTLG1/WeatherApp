@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/language_settings"
+        android:key="language_settings">
+
+        <!-- List preference for app language -->
+        <ListPreference
+            android:key="pref_app_language"
+            android:title="@string/languages2"
+            android:summary="@string/app_language_summary"
+            android:entries="@array/languages"
+            android:entryValues="@array/language_values"
+            android:defaultValue="en" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/format_settings"
+        android:key="format_settings">
+
+        <SwitchPreference
+            android:key="pref_temperature_unit"
+            android:title="@string/temperature_unit"
+            android:summaryOn="@string/celsius"
+            android:summaryOff="@string/fahrenheit"
+            android:defaultValue="true" />
+        <ListPreference
+            android:key="pref_date_format"
+            android:title="@string/date_format"
+            android:summary="@string/date_format_summary"
+            android:defaultValue="1"
+            android:entries="@array/date_formats"
+            android:entryValues="@array/date_format_values"
+        />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/Select_City"
+        android:key="city_selection">
+
+        <EditTextPreference
+            android:key="pref_region1"
+            android:title="@string/City1"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:defaultValue="@string/HN"/>
+
+        <EditTextPreference
+            android:key="pref_region2"
+            android:title="@string/City2"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:defaultValue="@string/Pari"/>
+
+        <EditTextPreference
+            android:key="pref_region3"
+            android:title="@string/City3"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:defaultValue="@string/TL"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/API_key"
+        android:key="api_settings">
+
+        <EditTextPreference
+            android:key="pref_api_key"
+            android:title="@string/API_key"
+            android:summary="@string/enterAPI"
+            android:inputType="text"
+            android:capitalize="none"
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:maxLength="100" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/about"
+        android:key="about_section">
+
+        <Preference
+            android:key="pref_guide"
+            android:title="@string/guide_trigger"
+            android:summary="@string/guide_summary" />
+
+        <Preference
+            android:key="pref_about"
+            android:title="@string/about"
+            android:summary="@string/about_summary" />
+<!--        <Preference-->
+<!--            android:key="pref_bug"-->
+<!--            android:title="@string/bug_report"-->
+<!--            android:summary="@string/bug_hint" />-->
+    </PreferenceCategory>
+
+</PreferenceScreen>

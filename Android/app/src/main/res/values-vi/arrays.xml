@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_formats">
+        <item>Ngày/Tháng/Năm</item>
+        <item>Tháng/Ngày/Năm</item>
+        <item>Năm/Tháng/Ngày</item>
+    </string-array>
+    <string-array name="day_names">
+        <item>Chủ nhật</item>
+        <item>Thứ hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ tư</item>
+        <item>Thứ năm</item>
+        <item>Thứ sáu</item>
+        <item>Thứ bảy</item>
+    </string-array>
+</resources>

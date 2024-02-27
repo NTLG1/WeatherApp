@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weather_icon">60dp</dimen>
+    <dimen name="weather_icon_big">150dp</dimen>
+    <dimen name="weather_fragment_height">340dp</dimen>
+    <dimen name="dots_height">35dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="dots_size">8dp</dimen>
+</resources>
